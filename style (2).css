@@ -1,0 +1,106 @@
+.navbar {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+.container-fluid {
+   color: black;
+
+   background-image: linear-gradient(to right, #A61B8E, #D62D68, #FE8057, #F7564E);
+
+}
+
+.navbar-brand {
+   font-size: 40px;
+   font-weight: bold;
+}
+
+.card-group {
+   padding-left: 7px;
+   padding-right: 7px;
+}
+
+.card-text {
+   font-size: 120%;
+}
+
+.card-title {
+   font-size: 25px;
+   font-weight: bold;
+   font-style: oblique;
+   font-style: unset;
+}
+
+.row {
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-bottom: 10px;
+}
+
+.btn {
+   color: white;
+   font-weight: 800;
+   background-color: black;
+   border-color: black;
+
+
+}
+
+#imagem {
+   width: 12%;
+   height: 13%;
+
+}
+
+@media only screen and (max-width: 654px) {
+
+   .navbar-brand {
+      font-size: 120%;
+   }
+
+   #imagem {
+      width: 15%;
+      height: 15%;
+
+   }
+
+}
+
+@media only screen and (max-width: 540px) {
+
+   .navbar-brand {
+      font-size: 110%;
+   }
+
+   #imagem {
+      width: 15%;
+      height: 15%;
+
+   }
+
+
+}
+
+@media only screen and (max-width: 280px) {
+
+   .navbar-brand {
+      font-size: 80%;
+   }
+
+   #imagem {
+      width: 15%;
+      height: 15%;
+
+   }
+
+}
+
+
+.row-central {
+   margin-top: 15px;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+}
+   
